@@ -13,7 +13,6 @@ body{
 :root{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -23,8 +22,60 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+/*titolo e paragrafo*/
+
 #title{
     color: rgb(207, 40, 118);
     margin: 30px;
     font-size: 60px;
+}
+
+p{
+    margin-bottom: 30px;
+}
+/*cards*/
+
+.row1:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.row2::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    background-color: rgb(37, 37, 37);
+
+}
+
+.pic{
+    width: 100px;
+    height: auto;
+    float: left;
+
+}
+
+.name{
+    color: white;
+    font-size: 30px;
+}
+
+.role{
+    color: white;
+}
+
+.email{
+    color: aqua;
+}
+
+.text{
+    margin: 5px;
+    text-align: left;
+    
 }
