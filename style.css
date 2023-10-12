@@ -33,24 +33,22 @@ body{
 p{
     margin-bottom: 30px;
 }
+
 /*cards*/
 
-.row1:after{
-    content:"";
+.row::after{
+    content: "";
     display: table;
     clear: both;
 }
 
-.row2::after{
-    content:"";
-    display: table;
-    clear: both;
-}
-
-.col{
+.card{
     float: left;
-    width: calc(100% / 3);
+    width: calc((100% / 3)- 12);
     background-color: rgb(37, 37, 37);
+    border: 1px solid whitesmoke;
+    min-height: 100px;
+    margin: 10px;
 
 }
 
@@ -77,5 +75,6 @@ p{
 .text{
     margin: 5px;
     text-align: left;
+    padding-left: 110px;
     
 }
