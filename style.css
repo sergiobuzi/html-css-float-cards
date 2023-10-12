@@ -16,9 +16,9 @@ body{
 }
 
 .container{
-    margin-left: 15%;
-    margin-right: 15%;
     text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
 
 }
 
@@ -44,17 +44,17 @@ p{
 
 .card{
     float: left;
-    width: calc((100% / 3)- 12);
+    width: calc(100% / 3 - 20px);
     background-color: rgb(37, 37, 37);
     border: 1px solid whitesmoke;
-    min-height: 100px;
+    height: 102px;
     margin: 10px;
 
 }
 
 .pic{
     width: 100px;
-    height: auto;
+    height: 100px;
     float: left;
 
 }
